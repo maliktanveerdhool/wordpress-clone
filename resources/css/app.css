@@ -1,0 +1,124 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-serif: 'Instrument Serif', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --color-paper: #fbfaf8;
+    --color-ink: #16161a;
+}
+
+@layer base {
+    body {
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .font-serif {
+        word-spacing: 0.1em;
+    }
+}
+
+@layer components {
+    .prose-post {
+        font-size: 1.0625rem;
+        line-height: 1.85;
+        color: #2f2f36;
+    }
+
+    .prose-post > * + * {
+        margin-top: 1.35em;
+    }
+
+    .prose-post h2 {
+        font-family: var(--font-serif);
+        font-size: 1.9rem;
+        line-height: 1.2;
+        color: var(--color-ink);
+        margin-top: 2.2em;
+        letter-spacing: -0.01em;
+    }
+
+    .prose-post h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: var(--color-ink);
+        margin-top: 1.8em;
+    }
+
+    .prose-post a {
+        color: #4338ca;
+        text-decoration: underline;
+        text-decoration-color: #c7d2fe;
+        text-underline-offset: 3px;
+    }
+
+    .prose-post a:hover {
+        text-decoration-color: #4338ca;
+    }
+
+    .prose-post strong {
+        color: var(--color-ink);
+        font-weight: 600;
+    }
+
+    .prose-post ul,
+    .prose-post ol {
+        padding-left: 1.4em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .prose-post ul {
+        list-style: disc;
+    }
+
+    .prose-post ol {
+        list-style: decimal;
+    }
+
+    .prose-post blockquote {
+        border-left: 3px solid #c7d2fe;
+        padding: 0.25em 0 0.25em 1.25em;
+        font-family: var(--font-serif);
+        font-size: 1.4rem;
+        line-height: 1.5;
+        color: #3f3f46;
+        font-style: italic;
+    }
+
+    .prose-post code {
+        background: #f1f0ed;
+        border-radius: 0.25rem;
+        padding: 0.15em 0.4em;
+        font-size: 0.9em;
+    }
+
+    .prose-post pre {
+        background: #1b1b20;
+        color: #e7e5e4;
+        border-radius: 0.75rem;
+        padding: 1.25rem;
+        overflow-x: auto;
+        font-size: 0.875rem;
+        line-height: 1.7;
+    }
+
+    .prose-post pre code {
+        background: transparent;
+        padding: 0;
+        color: inherit;
+    }
+
+    .prose-post img {
+        border-radius: 0.75rem;
+    }
+
+    .prose-post hr {
+        border-color: #e7e5e4;
+        margin: 2.5em 0;
+    }
+}
