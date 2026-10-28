@@ -5,5 +5,5 @@ test('the application returns a successful response', function () {
 
     $this->get('/')
         ->assertOk()
-        ->assertSee('WordPress Testings');
+        ->assertSee('WordPress Clone');
 });

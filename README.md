@@ -1,4 +1,4 @@
-# WordPress Testings
+# WordPress Clone
 
 A WordPress-style publishing platform built with **Laravel 13**, **Blade** and **Tailwind CSS 4**. It ships with a polished public blog, a complete admin dashboard, and seeded demo content so you can explore everything immediately.
 
@@ -18,7 +18,7 @@ A WordPress-style publishing platform built with **Laravel 13**, **Blade** and *
 
 ## Overview
 
-**WordPress Testings** is a full-featured blogging application that mirrors the familiar WordPress content model without the plugin sprawl:
+**WordPress Clone** is a full-featured blogging application that mirrors the familiar WordPress content model without the plugin sprawl:
 
 - A **public magazine-style site** with a featured hero, post grid, archives, search, author boxes and comments.
 - A **WordPress-inspired admin area** with dashboards, post editor, media uploads, taxonomy management, comment moderation and site settings.
@@ -83,8 +83,8 @@ The project is intentionally built with first-party Laravel features only — no
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/maliktanveerdhool/wordpress-testings.git
-cd wordpress-testings
+git clone https://github.com/maliktanveerdhool/wordpress-clone.git
+cd wordpress-clone
 
 # 2. Install PHP dependencies
 composer install
@@ -114,7 +114,7 @@ composer dev
 
 The site is now available at **http://localhost:8000**.
 
-> **Laravel Herd users:** the site is served automatically at `http://wordpress-testings.test` once the folder is in your Herd path.
+> **Laravel Herd users:** the site is served automatically at `http://wordpress-clone.test` once the folder is in your Herd path. Herd derives the domain from the folder name, so a checkout in a folder called `wordpress-testings` will be served at `http://wordpress-testings.test` instead.
 
 ---
 

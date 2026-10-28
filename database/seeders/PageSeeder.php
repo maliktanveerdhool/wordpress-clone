@@ -19,7 +19,7 @@ class PageSeeder extends Seeder
                 'body' => <<<'MD'
                 ## A small publication about making things
 
-                **WordPress Testings** started as a place to keep notes — about code, type, travel and the strange business of paying attention. It is written by a small group of people who like slow software and long walks.
+                **WordPress Clone** started as a place to keep notes — about code, type, travel and the strange business of paying attention. It is written by a small group of people who like slow software and long walks.
 
                 We publish a few times a month. Nothing is sponsored, nothing is rushed, and everything is written by a human who had to think about it first.
 
@@ -42,8 +42,8 @@ class PageSeeder extends Seeder
 
                 We like email. Real, thoughtful, occasionally long email.
 
-                - **General enquiries:** hello@wordpress-testings.test
-                - **Pitches and submissions:** editor@wordpress-testings.test
+                - **General enquiries:** hello@wordpress-clone.test
+                - **Pitches and submissions:** editor@wordpress-clone.test
                 - **Corrections:** always welcome, always published
 
                 We aim to reply within a few working days. If you are writing about a specific post, mentioning the title helps.
